@@ -1,15 +1,15 @@
 {
     "type": "FeatureCollection",
-    features: [
+    "features": [
     {
-        type: "Feature",
-        properties: {
-            Name: "Track",
-            Description: ""
+        "type": "Feature",
+        "properties": {
+            "Name": "Track",
+            "Description": ""
             },
-            geometry: {
-                type: "LineString",
-                coordinates: [
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
                 [
                 -122.433408,
                 48.608697,
