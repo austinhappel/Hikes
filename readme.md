@@ -10,7 +10,7 @@ For some reason, **ogr2ogr** doesn't handle raw gpx data well, and for some reas
 
 2. Open up target GPX or KML file and run the following in the command line:
 
-        togeojson file.kml > file.geojson
+        togeojson file.gpx > file.geojson
 
 You should get a geojson file with just your tracks in it. Waypoints get deleted.
 
