@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="GPS Kit iOS App by Garafa" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+ <metadata>
+  <name>Oyster dome trail - up </name>
+ </metadata>
+ <wpt lat="48.608689" lon="-122.433381">
+  <name>Trailhead pnw</name>
+  <ele>43</ele>
+  <time>2013-06-15T19:14:45.7960Z</time>
+ </wpt>
+ <wpt lat="48.626852" lon="-122.415075">
+  <name>Peak</name>
+  <ele>637</ele>
+  <time>2013-06-15T21:07:43.8050Z</time>
+ </wpt>
+ <wpt lat="48.624107" lon="-122.413971">
+  <name>Junction to lake</name>
+  <ele>597</ele>
+  <time>2013-06-15T22:02:17.6210Z</time>
+ </wpt>
+ <wpt lat="48.624769" lon="-122.405256">
+  <name>Lily lake</name>
+  <ele>618</ele>
+  <time>2013-06-15T22:20:50.4800Z</time>
+ </wpt>
+</gpx>
