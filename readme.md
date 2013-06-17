@@ -28,3 +28,5 @@ You should get a geojson file with just your tracks in it. Waypoints get deleted
 3. In terminal, fire off this command:
 
         ogr2ogr -skipfailures -f GeoJson target.geojson source-with-no-tracks.gpx
+
+4. Remove the "crs" property from the resulting geojson. It causes leaflet to throw a "unsupported projection" error.
