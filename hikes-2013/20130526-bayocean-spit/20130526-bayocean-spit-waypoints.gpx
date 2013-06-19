@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="GPS Kit iOS App by Garafa" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+ <metadata>
+  <name>Sun May 26 2013</name>
+ </metadata>
+ <wpt lat="45.506720" lon="-123.943620">
+  <name>Bay ocean spit gravel road entrance</name>
+  <time>2013-05-26T20:14:56.1710Z</time>
+ </wpt>
+ <wpt lat="45.527904" lon="-122.684183">
+  <name>Car</name>
+  <ele>25</ele>
+  <time>2013-05-27T02:45:50.2240Z</time>
+ </wpt>
+</gpx>

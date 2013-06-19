@@ -1,0 +1,66 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Trailhead  - PNW Trail (Oyster Dome)",
+                "ele": 43,
+                "time": "2013/06/15 19:14:46+00",
+                "magvar": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.433381,
+                    48.608689
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Peak",
+                "ele": 637,
+                "time": "2013/06/15 21:07:44+00"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.415075,
+                    48.626852
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Junction to lake",
+                "ele": 597,
+                "time": "2013/06/15 22:02:18+00"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.413971,
+                    48.624107
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lily lake",
+                "ele": 618,
+                "time": "2013/06/15 22:20:50+00"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.405256,
+                    48.624769
+                ]
+            }
+        }
+    ]
+}

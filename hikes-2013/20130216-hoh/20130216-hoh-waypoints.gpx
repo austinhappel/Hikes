@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="GPS Kit iOS App by Garafa" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+ <metadata>
+  <name>Sat Feb 16 2013 - 2</name>
+ </metadata>
+ <wpt lat="47.860546" lon="-123.935094">
+  <name>Hoh visitor center</name>
+  <ele>0</ele>
+  <time>2013-02-16T21:31:24.8490Z</time>
+ </wpt>
+</gpx>

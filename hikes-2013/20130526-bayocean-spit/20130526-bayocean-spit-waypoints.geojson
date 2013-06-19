@@ -1,0 +1,20 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "ele": null,
+                "time": "2013/05/26 20:14:56+00",
+                "name": "Bay ocean spit gravel road entrance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.94362,
+                    45.50672
+                ]
+            }
+        }
+    ]
+}
