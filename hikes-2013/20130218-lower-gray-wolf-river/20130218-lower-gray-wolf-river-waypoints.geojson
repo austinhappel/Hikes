@@ -1,0 +1,20 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Parked here for trailhead (lone wolf)",
+                "ele": 379,
+                "time": "2013/02/18 19:12:54+00"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.126728,
+                    47.967108
+                ]
+            }
+        }
+    ]
+}

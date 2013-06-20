@@ -1,3 +1,7 @@
+# Hikes I've been on
+
+[Check out the site](http://austinhappel.github.io/Hikes)
+
 # Creating geojson from GPX data
 
 For some reason, **ogr2ogr** doesn't handle raw gpx data well, and for some reason **togeojson** doesn't convert GPX waypoints at all. So, the solution I've come up with is to use both tools, and then hand-fix any errors generated.
