@@ -2,7 +2,9 @@
 
 For some reason, **ogr2ogr** doesn't handle raw gpx data well, and for some reason **togeojson** doesn't convert GPX waypoints at all. So, the solution I've come up with is to use both tools, and then hand-fix any errors generated.
 
-# How to convert GPX tracks to geojson
+# How to convert GPX/KML tracks to geojson
+
+NOTE: Converting KML to geojson is more reliable than converting GPX to geojson using this tool. With KML, you'll get waypoints and tracks, instead of just tracks.
 
 1. Install **[togeojson](https://github.com/tmcw/togeojson)** node module:
     
@@ -30,3 +32,9 @@ You should get a geojson file with just your tracks in it. Waypoints get deleted
         ogr2ogr -skipfailures -f GeoJson target.geojson source-with-no-tracks.gpx
 
 4. Remove the "crs" property from the resulting geojson. It causes leaflet to throw a "unsupported projection" error.
+
+
+# Running a basic server for testing
+
+    $ cd project/directory
+    $ python -m SimpleHTTPServer
