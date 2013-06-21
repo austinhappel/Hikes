@@ -30,7 +30,7 @@
             {
                 onEachFeature: function (feature, layer) {
                     var prop,
-                        $popup = $('<table></table>'),
+                        $popup = $('<table class="table table-bordered"></table>'),
                         $row;
 
                     if (feature.properties) {
