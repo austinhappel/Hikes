@@ -1,27 +1,50 @@
 /*jslint devel: true, browser: true, nomen: true, maxerr: 50, indent: 4 */
-/*global jQuery, $, _, L*/
+/*global jQuery, $, _, L, Avgrund*/
 
 (function () {
     "use strict";
 
     var map;
 
+    function createPopupLinkRow(url) {
+        var template = '<tr><td>Image</td><td><a href="' + url + '">Image</a></td></tr>',
+            $ret = $(template);
+
+        $ret
+            .find('a')
+            .avgrund({
+                template: '<img src="' + url + '"/>'
+            });
+
+        return $ret;
+    }
+
+
+    /**
+     * Parse JSON to geoJson.
+     * @param  {[type]} data [description]
+     * @return {[type]}      [description]
+     */
     function parseGeoJson(data) {
         return L.geoJson(JSON.parse(data),
             {
                 onEachFeature: function (feature, layer) {
                     var prop,
-                        popup = '<table>';
+                        $popup = $('<table></table>'),
+                        $row;
+
                     if (feature.properties) {
                         for (prop in feature.properties) {
                             if (feature.properties.hasOwnProperty(prop)) {
-                                popup += '<tr><td>' + prop + '</td><td>' + feature.properties[prop] + '</td></tr>\n';
+                                if (prop === 'image') {
+                                    $popup.append(createPopupLinkRow(feature.properties[prop]));
+                                } else {
+                                    $popup.append('<tr><td>' + prop + '</td><td>' + feature.properties[prop] + '</td></tr>');
+                                }
                             }
                         }
 
-                        popup += '</table>';
-
-                        layer.bindPopup(popup);
+                        layer.bindPopup($popup[0]);
                     }
                 }
             });
@@ -85,6 +108,7 @@
                 getTrack($a.attr('href'), success);
             });
     }
+
 
     // init map
     map = L.map('map');
