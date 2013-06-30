@@ -8608,20 +8608,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -121.582367,
-                    47.423837,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "Bandera trailhead?"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -121.583448,
                     47.423961,
                     622.170959
@@ -8642,7 +8628,8 @@
                 ]
             },
             "properties": {
-                "name": "Summit landing"
+                "name": "Summit landing",
+                "image": "/hikes-2013/20130629-bandera-mountain/images/ascent/1.jpg"
             }
         },
         {
