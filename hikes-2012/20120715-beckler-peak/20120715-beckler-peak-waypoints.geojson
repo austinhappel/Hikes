@@ -1,0 +1,80 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "ele": 127,
+                "time": "2012/07/15 15:34:22+00",
+                "name": "Beckler peak trail head"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.265503,
+                    47.726799
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ele": 0,
+                "time": "2012/07/15 19:04:53+00",
+                "name": "Nf-66"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.290125,
+                    47.712843
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ele": 1121,
+                "time": "2012/07/15 20:40:57+00",
+                "name": "Pretty lookout"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.26195,
+                    47.734096
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ele": 1339,
+                "time": "2012/07/15 21:17:51+00",
+                "name": "Snow on trail"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.271039,
+                    47.737093
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ele": 1536,
+                "time": "2012/07/15 22:02:41+00",
+                "name": "The summit"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.281737,
+                    47.735722
+                ]
+            }
+        }
+    ]
+}

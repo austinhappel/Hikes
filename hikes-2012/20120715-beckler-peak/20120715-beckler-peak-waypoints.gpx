@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="GPS Kit iOS App by Garafa" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+ <metadata>
+  <name>Sun Jul 15 2012</name>
+ </metadata>
+ <wpt lat="47.726799" lon="-121.265503">
+  <name>Beckler peak trail head</name>
+  <ele>127</ele>
+  <time>2012-07-15T15:34:22.1400Z</time>
+ </wpt>
+ <wpt lat="47.712843" lon="-121.290125">
+  <name>Nf-66</name>
+  <ele>0</ele>
+  <time>2012-07-15T19:04:52.5980Z</time>
+ </wpt>
+ <wpt lat="47.734096" lon="-121.261950">
+  <name>Pretty lookout</name>
+  <ele>1121</ele>
+  <time>2012-07-15T20:40:56.7040Z</time>
+ </wpt>
+ <wpt lat="47.737093" lon="-121.271039">
+  <name>Snow on trail</name>
+  <ele>1339</ele>
+  <time>2012-07-15T21:17:50.8820Z</time>
+ </wpt>
+ <wpt lat="47.735722" lon="-121.281737">
+  <name>The summit</name>
+  <ele>1536</ele>
+  <time>2012-07-15T22:02:41.4190Z</time>
+ </wpt>
+</gpx>
