@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <title>Hikes!</title>
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.css" />
-    <link rel="stylesheet" href="static/vendor/avgrund/avgrund.css" />
+    <link rel="stylesheet" href="static/vendor/fancybox/source/jquery.fancybox.css" />
     <!--[if lte IE 8]>
         <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.ie.css" />
     <![endif]-->
     <script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script src="static/vendor/avgrund/jquery.avgrund.js"></script>
+    <script src="static/vendor/fancybox/source/jquery.fancybox.js"></script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/lodash.js/1.3.1/lodash.min.js"></script>
     <style type="text/css">
         #map {
             width: 100%;
@@ -26,6 +28,12 @@
             width: 600px;
             height: 600px;
         }
+
+        .flickr-popup a {
+            margin-top: 10px;
+            display: block;
+        }
+
     </style>
     <link rel="stylesheet" href="static/vendor/bootstrap/css/bootstrap.min.css">
 </head>
@@ -39,7 +47,7 @@
             <div class="hikes-2013 hike-list">
                 <h2>2013</h2>
                 <ul>
-                    <li><a href="hikes-2013/20130714-mt-dickerson/20130714-mt-dickerson.geojson">Mt. Dickerson</a></li>
+                    <li><a href="hikes-2013/20130714-mt-dickerson/20130714-mt-dickerson-all.geojson">Mt. Dickerson</a></li>
                     <li><a href="hikes-2013/20130629-bandera-mountain/20130629-bandera-mountain-all.geojson">Bandera Mountain</a></li>
                     <li><a href="hikes-2013/20130615-oyster-dome-trail/hike-oyster-dome-trail-20130615-all.geojson">Oyster Dome Trail</a></li>
                     <li><a href="hikes-2013/20130526-bayocean-spit/20130526-bayocean-spit-all.geojson">Bayocean Spit</a></li>

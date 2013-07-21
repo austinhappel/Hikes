@@ -1,0 +1,33 @@
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.414835, 
+                    48.627049, 
+                    612.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://7151_7154_7157"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.429018, 
+                    48.60975, 
+                    295.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://7131_7134_7137"
+            }
+        }
+    ]
+}

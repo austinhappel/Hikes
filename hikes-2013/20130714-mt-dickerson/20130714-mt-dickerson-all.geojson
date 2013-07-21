@@ -10830,6 +10830,132 @@
             "properties": {
                 "name": "Parking lot"
             }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.479383, 
+                    48.054684, 
+                    1020.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://IMG_7177.JPG"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.471116, 
+                    48.068929, 
+                    1743.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://IMG_7227.JPG"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.471157, 
+                    48.068906, 
+                    1743.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://IMG_7241.JPG"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.471157, 
+                    48.068906, 
+                    1743.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://IMG_7245.JPG"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.471157, 
+                    48.068906, 
+                    1743.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://IMG_7248.JPG"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.471951, 
+                    48.068362, 
+                    1711.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://IMG_7265.JPG"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.474734, 
+                    48.065813, 
+                    1594.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://IMG_7272.JPG"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.478751, 
+                    48.066494, 
+                    1506.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://IMG_7274.JPG"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.471116, 
+                    48.068929, 
+                    1743.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://pano-7128_7221_7224_7230"
+            }
         }
     ]
 }

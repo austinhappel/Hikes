@@ -8645,6 +8645,174 @@
             "properties": {
                 "name": "Car"
             }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.557292, 
+                    47.41695, 
+                    1162.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://0101_0104_0107"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.547673, 
+                    47.41796, 
+                    1575.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://0125_0128_0131_0134"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.556643, 
+                    47.418616, 
+                    1265.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://DSC_0118.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.547673, 
+                    47.41796, 
+                    1575.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://DSC_0143.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.548204, 
+                    47.418198, 
+                    1564.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://DSC_0145.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.548204, 
+                    47.418198, 
+                    1564.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://DSC_0150.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.548278, 
+                    47.418186, 
+                    1564.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://DSC_0155.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.548606, 
+                    47.418294, 
+                    1559.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://DSC_0156.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.554316, 
+                    47.419867, 
+                    1408.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://DSC_0160.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.55541, 
+                    47.419417, 
+                    1346.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://DSC_0167.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.555947, 
+                    47.419229, 
+                    1321.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://DSC_0170.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.576905, 
+                    47.424061, 
+                    798.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://DSC_0177.jpg"
+            }
         }
     ]
 }

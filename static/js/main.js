@@ -4,17 +4,43 @@
 (function () {
     "use strict";
 
-    var map;
+    var map,
+        flickrSettings = {
+            apiKey: 'cbd05c0dac3939f397ed54747754560c',
+            userId: '23715055@N04',
+            flickrUrl: 'http://ycpi.api.flickr.com/services/rest/'
+        };
 
     function createPopupLinkRow(url) {
         var template = '<tr><td>Image</td><td><a href="' + url + '">Image</a></td></tr>',
             $ret = $(template);
 
-        $ret
-            .find('a')
-            .avgrund({
-                template: '<img src="' + url + '"/>'
-            });
+        function createFlickrTemplate(flickrImage) {
+            $ret
+                .find('a')
+                .on('click', function (e) {
+                    e.preventDefault();
+                    $.fancybox('<div class="flickr-popup"><img src="' + flickrImage.source + '" width="' + flickrImage.width + '" height="' + flickrImage.height + '"/><a href="' + flickrImage.flickrLink + '">Image on Flickr</a></div>');
+                });
+        }
+
+        function error(data) {
+            return $ret;
+        }
+
+        if (url.indexOf('flickr://') === 0) {
+            url = url.substr(9);
+            if (url.indexOf('.') > -1) {
+                url = url.substr(0, url.indexOf('.'));
+            }
+            getFlickrPhoto(url, createFlickrTemplate, error);
+        } else {
+            $ret
+                .find('a')
+                .on('click', function (e) {
+                    $.fancybox('url');
+                });
+        }
 
         return $ret;
     }
@@ -147,4 +173,90 @@
         getTrack($('.hike-list a').eq(0).attr('href'), focusTrack);
 
     });
+
+    function callFlickrApi(requestObj, callbackSuccess, callbackError) {
+        requestObj = _.extend(requestObj, {
+            api_key: flickrSettings.apiKey,
+            format: 'json',
+            nojsoncallback: 1
+        });
+
+        function success(data) {
+            if (typeof callbackSuccess === 'function') {
+                callbackSuccess(data);
+            }
+        }
+
+        function error(jqXHR) {
+            if (typeof callbackError === 'function') {
+                callbackSuccess(jqXHR);
+            }
+        }
+
+        $.ajax({
+            url: flickrSettings.flickrUrl,
+            data: requestObj,
+            success: success,
+            error: error
+        });
+    }
+
+    function getFlickrPhoto(title, success, error) {
+        var searchRequest = {
+                method: 'flickr.photos.search',
+                user_id: flickrSettings.userId,
+                text: title
+            },
+            fileRequest = {
+                method: 'flickr.photos.getSizes',
+                photo_id: ''
+            };
+
+        function callSuccess(ret) {
+            if (typeof success === 'function') {
+                success(ret);
+            }
+        }
+
+        function callError(ret) {
+            if (typeof error === 'function') {
+                error(ret);
+            }
+        }
+
+        function fileSuccess(data) {
+            var desiredImage = _.find(data.sizes.size, {label: 'Medium 800'}),
+                ret = {
+                    flickrLink: 'http://flickr.com/photos/austinhappel/' + fileRequest.photo_id,
+                    source: desiredImage.source,
+                    width: desiredImage.width,
+                    height: desiredImage.height
+                };
+
+            callSuccess(ret);
+        }
+
+        function fileError(jqXHR) {
+            console.log('file error:');
+            console.log(jqXHR);
+            callError(undefined);
+        }
+
+        function searchSuccess(data) {
+            if (data.photos.photo && data.photos.photo.length > 0) {
+                fileRequest.photo_id = data.photos.photo[0].id;
+                callFlickrApi(fileRequest, fileSuccess, fileError);
+            }
+        }
+
+        function searchError(jqXHR) {
+            console.log('search error: ');
+            console.log(jqXHR);
+            callError(undefined);
+        }
+
+        callFlickrApi(searchRequest, searchSuccess, searchError);
+    }
+
+
 }(this));

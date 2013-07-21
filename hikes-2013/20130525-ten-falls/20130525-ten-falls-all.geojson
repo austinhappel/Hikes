@@ -9364,6 +9364,174 @@
                     ]
                 ]
             }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.62323, 
+                    44.88528, 
+                    423.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://7009_7010"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.62323, 
+                    44.88528, 
+                    423.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://7013_7014_7015_7016_7017_7018"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.615178, 
+                    44.88295, 
+                    443.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://IMG_6998.JPG"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.623223, 
+                    44.88429, 
+                    444.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://IMG_7004.JPG"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.623223, 
+                    44.885327, 
+                    422.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://IMG_7008.JPG"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.623417, 
+                    44.884921, 
+                    457.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://IMG_7027.JPG"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.643197, 
+                    44.889692, 
+                    414.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://IMG_7032.JPG"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.645555, 
+                    44.891903, 
+                    431.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://IMG_7045.JPG"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.661953, 
+                    44.885954, 
+                    375.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://IMG_7087.JPG"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.661751, 
+                    44.886388, 
+                    339.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://IMG_7102.JPG"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.65903, 
+                    44.880179, 
+                    437.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://IMG_7107.JPG"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.658404, 
+                    44.879704, 
+                    404.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://IMG_7111.JPG"
+            }
         }
     ]
 }
