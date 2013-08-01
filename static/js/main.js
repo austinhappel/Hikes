@@ -38,7 +38,8 @@
             $ret
                 .find('a')
                 .on('click', function (e) {
-                    $.fancybox('url');
+                    e.preventDefault();
+                    $.fancybox('<img src="' + url + '" />');
                 });
         }
 
