@@ -20,7 +20,10 @@
                 .find('a')
                 .on('click', function (e) {
                     e.preventDefault();
-                    $.fancybox('<div class="flickr-popup"><img src="' + flickrImage.source + '" width="' + flickrImage.width + '" height="' + flickrImage.height + '"/><a href="' + flickrImage.flickrLink + '">Image on Flickr</a></div>');
+                    $.fancybox('<div class="flickr-popup"><img src="' + flickrImage.source + '" width="' + flickrImage.width + '" height="' + flickrImage.height + '"/><a href="' + flickrImage.flickrLink + '">Image on Flickr</a></div>', {
+                        minWidth: flickrImage.width,
+                        minHeigh: flickrImage.height
+                    });
                 });
         }
 
