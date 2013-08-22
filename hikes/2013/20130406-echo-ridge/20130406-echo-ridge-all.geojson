@@ -12105,7 +12105,7 @@
             },
             "properties": {
                 "name": "Grand junction",
-                "image": "hikes-2013/20130406-echo-ridge/images/2.jpg",
+                "image": "hikes/2013/20130406-echo-ridge/images/2.jpg",
                 "description": "Just finished upsy-daisy trail, starting ridge view trail"
             }
         },
@@ -12121,7 +12121,7 @@
             },
             "properties": {
                 "name": "Photo",
-                "image": "hikes-2013/20130406-echo-ridge/images/3.jpg",
+                "image": "hikes/2013/20130406-echo-ridge/images/3.jpg",
                 "description": "Fork: viewpoint to right/east, 1294 forward"
             }
         },
@@ -12151,7 +12151,7 @@
             },
             "properties": {
                 "name": "Photo",
-                "hikes-2013/20130406-echo-ridge/images": "hikes-2013/20130406-echo-ridge/images/4.jpg",
+                "hikes/2013/20130406-echo-ridge/images": "hikes/2013/20130406-echo-ridge/images/4.jpg",
                 "description": "High five junction"
             }
         },
@@ -12265,7 +12265,7 @@
             },
             "properties": {
                 "name": "Photo",
-                "image": "hikes-2013/20130406-echo-ridge/images/5.jpg"
+                "image": "hikes/2013/20130406-echo-ridge/images/5.jpg"
             }
         },
         {

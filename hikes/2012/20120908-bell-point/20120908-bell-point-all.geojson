@@ -6856,7 +6856,7 @@
             },
             "properties": {
                 "name": "Fork in the trail",
-                "image": "hikes-2012/20120908-bell-point/images/10.jpg"
+                "image": "hikes/2012/20120908-bell-point/images/10.jpg"
             }
         },
         {
@@ -6871,7 +6871,7 @@
             },
             "properties": {
                 "name": "Walk back: fork",
-                "image": "hikes-2012/20120908-bell-point/images/11.jpg"
+                "image": "hikes/2012/20120908-bell-point/images/11.jpg"
             }
         },
         {
@@ -6886,7 +6886,7 @@
             },
             "properties": {
                 "name": "Fork",
-                "hikes-2013/20130330-umtanum/images": "hikes-2012/20120908-bell-point/images/12.jpg"
+                "hikes/2013/20130330-umtanum/images": "hikes/2012/20120908-bell-point/images/12.jpg"
             }
         },
         {
@@ -6901,7 +6901,7 @@
             },
             "properties": {
                 "name": "Fork to orchard (did not take)",
-                "image": "hikes-2012/20120908-bell-point/images/13.jpg"
+                "image": "hikes/2012/20120908-bell-point/images/13.jpg"
             }
         },
         {
@@ -6916,7 +6916,7 @@
             },
             "properties": {
                 "name": "Fork: path to Mitchell hill area ( walked up part way)",
-                "image": "hikes-2012/20120908-bell-point/images/14.jpg"
+                "image": "hikes/2012/20120908-bell-point/images/14.jpg"
             }
         },
         {
@@ -6931,7 +6931,7 @@
             },
             "properties": {
                 "name": "Lookout",
-                "image": "hikes-2012/20120908-bell-point/images/15.jpg"
+                "image": "hikes/2012/20120908-bell-point/images/15.jpg"
             }
         },
         {
@@ -7020,7 +7020,7 @@
             },
             "properties": {
                 "name": "Photo",
-                "image": "hikes-2012/20120908-bell-point/images/16.jpg"
+                "image": "hikes/2012/20120908-bell-point/images/16.jpg"
             }
         },
         {
@@ -7035,7 +7035,7 @@
             },
             "properties": {
                 "name": "Photo",
-                "image": "hikes-2012/20120908-bell-point/images/17.jpg"
+                "image": "hikes/2012/20120908-bell-point/images/17.jpg"
             }
         },
         {
@@ -7050,7 +7050,7 @@
             },
             "properties": {
                 "name": "Bell point trail head",
-                "image": "hikes-2012/20120908-bell-point/images/18.jpg"
+                "image": "hikes/2012/20120908-bell-point/images/18.jpg"
             }
         },
         {
@@ -7065,7 +7065,7 @@
             },
             "properties": {
                 "name": "Pier",
-                "image": "hikes-2012/20120908-bell-point/images/19.jpg"
+                "image": "hikes/2012/20120908-bell-point/images/19.jpg"
             }
         },
         {
@@ -7080,7 +7080,7 @@
             },
             "properties": {
                 "name": "Fork",
-                "image": "hikes-2012/20120908-bell-point/images/20.jpg"
+                "image": "hikes/2012/20120908-bell-point/images/20.jpg"
             }
         },
         {

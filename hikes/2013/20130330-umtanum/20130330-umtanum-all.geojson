@@ -9135,7 +9135,7 @@
             },
             "properties": {
                 "name": "Photo",
-                "image": "hikes-2013/20130330-umtanum/images/6.jpg"
+                "image": "hikes/2013/20130330-umtanum/images/6.jpg"
             }
         },
         {
@@ -9150,7 +9150,7 @@
             },
             "properties": {
                 "name": "Photo",
-                "image": "hikes-2013/20130330-umtanum/images/7.jpg"
+                "image": "hikes/2013/20130330-umtanum/images/7.jpg"
             }
         },
         {
@@ -9165,7 +9165,7 @@
             },
             "properties": {
                 "name": "Photo",
-                "image": "hikes-2013/20130330-umtanum/images/8.jpg"
+                "image": "hikes/2013/20130330-umtanum/images/8.jpg"
             }
         },
         {
@@ -9180,7 +9180,7 @@
             },
             "properties": {
                 "name": "Photo",
-                "image": "hikes-2013/20130330-umtanum/images/9.jpg"
+                "image": "hikes/2013/20130330-umtanum/images/9.jpg"
             }
         }
     ]

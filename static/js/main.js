@@ -56,28 +56,27 @@
      * @return {[type]}      [description]
      */
     function parseGeoJson(data) {
-        return L.geoJson(JSON.parse(data),
-            {
-                onEachFeature: function (feature, layer) {
-                    var prop,
-                        $popup = $('<table class="table table-bordered"></table>'),
-                        $row;
+        return L.geoJson(JSON.parse(data),  {
+            onEachFeature: function (feature, layer) {
+                var prop,
+                    $popup = $('<table class="table table-bordered"></table>'),
+                    $row;
 
-                    if (feature.properties) {
-                        for (prop in feature.properties) {
-                            if (feature.properties.hasOwnProperty(prop)) {
-                                if (prop === 'image') {
-                                    $popup.append(createPopupLinkRow(feature.properties[prop]));
-                                } else {
-                                    $popup.append('<tr><td>' + prop + '</td><td>' + feature.properties[prop] + '</td></tr>');
-                                }
+                if (feature.properties) {
+                    for (prop in feature.properties) {
+                        if (feature.properties.hasOwnProperty(prop)) {
+                            if (prop === 'image') {
+                                $popup.append(createPopupLinkRow(feature.properties[prop]));
+                            } else {
+                                $popup.append('<tr><td>' + prop + '</td><td>' + feature.properties[prop] + '</td></tr>');
                             }
                         }
-
-                        layer.bindPopup($popup[0]);
                     }
+
+                    layer.bindPopup($popup[0]);
                 }
-            });
+            }
+        });
     }
 
     /**
@@ -150,7 +149,7 @@
 
         // bind events
         $('.hike-list')
-            .on('click', 'a', function (e) {
+            .on('click', 'a.hike', function (e) {
                 e.preventDefault();
 
                 var $a = $(e.target);
