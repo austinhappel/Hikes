@@ -34,13 +34,21 @@
             display: block;
         }
 
+        .downloads {
+            margin-bottom: 20px;
+        }
+
+        .downloads-title {
+            border-bottom: 1px solid #ccc;
+        }
+
     </style>
     <link rel="stylesheet" href="static/vendor/bootstrap/css/bootstrap.min.css">
 </head>
 <body>
     <div class="row-fluid">
         <div class="span3" id="sidebar">
-            <h1>Hikes We've been on</h1>
+            <h1>Hikes we've been on</h1>
             <p class="lead">
                 This an interactive map of the GPS tracks We've taken while hiking various trails in the PNW.
             </p>
@@ -51,11 +59,16 @@
                     {{#hikes}}
                     <li>
                         <a href="{{geojson_path}}" class="hike">{{name}}</a>
+                        {{#downloads}}
+                        <div class="downloads hide">
+                            <h4 class="downloads-title">Downloads</h4>
                         <ul>
                             {{#downloads}}
                             <li><a href="{{path}}" download="{{name}}">{{name}}</a></li>
                             {{/downloads}}
-                        </ul>
+                        </ul>    
+                        </div>
+                        {{/downloads}}
                     </li>
                     {{/hikes}}
                 </ul>

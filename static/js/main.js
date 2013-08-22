@@ -59,8 +59,7 @@
         return L.geoJson(JSON.parse(data),  {
             onEachFeature: function (feature, layer) {
                 var prop,
-                    $popup = $('<table class="table table-bordered"></table>'),
-                    $row;
+                    $popup = $('<table class="table table-bordered"></table>');
 
                 if (feature.properties) {
                     for (prop in feature.properties) {
@@ -149,6 +148,7 @@
 
         // bind events
         $('.hike-list')
+            // on click, focus the hike's track and fit it to the map.
             .on('click', 'a.hike', function (e) {
                 e.preventDefault();
 
@@ -165,7 +165,15 @@
                     getTrack($a.attr('href'), success);
                 }
 
+                $a.parent()
+                    .find('.downloads')
+                    .show();
+
             });
+
+        $('.downloads')
+            .hide()
+            .removeClass('hide');
 
         $(window).resize(function () {
             resizeMap();
