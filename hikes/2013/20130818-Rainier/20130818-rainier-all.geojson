@@ -7452,6 +7452,216 @@
                     ]
                 ]
             }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.725203, 
+                    46.790542, 
+                    1613.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://DSC_0390.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.713769, 
+                    46.801447, 
+                    1901.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://DSC_0417.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.71385, 
+                    46.801524, 
+                    1902.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://DSC_0422.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.713798, 
+                    46.801491, 
+                    1903.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://DSC_0429.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.713321, 
+                    46.8011, 
+                    1891.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://DSC_0431.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.713288, 
+                    46.801054, 
+                    1893.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://DSC_0434.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.711374, 
+                    46.798189, 
+                    1885.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://DSC_0436.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.711608, 
+                    46.79746, 
+                    1877.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://DSC_0438.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.712131, 
+                    46.796383, 
+                    1865.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://DSC_0440.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.719237, 
+                    46.795705, 
+                    1883.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://DSC_0449.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.728156, 
+                    46.805497, 
+                    2148.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://DSC_0475_color"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.728744, 
+                    46.804786, 
+                    2135.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://DSC_0491.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.728868, 
+                    46.804841, 
+                    2141.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://DSC_0495.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.729139, 
+                    46.804928, 
+                    2132.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://DSC_0508.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.717113, 
+                    46.790731, 
+                    1778.0
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "image": "flickr://pano_0397_0398_0399_0400_0401_0402_0403_0404_smaller"
+            }
         }
     ]
 }
