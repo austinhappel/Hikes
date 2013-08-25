@@ -70,7 +70,7 @@ for idx, folder in enumerate(root_folders):
                     "geojson_path": geojson_path
                     })
             else:
-                print 'hike: %s was not added, no geojson' % name
+                print('hike: {} was not added, no geojson'.format(name))
 
 
 
