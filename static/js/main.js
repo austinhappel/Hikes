@@ -125,7 +125,7 @@
     }
 
     function getAllTracks() {
-        $('.hike-list a')
+        $('.hike-list a.hike')
             .each(function () {
                 var $a = $(this);
 
