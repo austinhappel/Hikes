@@ -56,7 +56,8 @@
      * @return {[type]}      [description]
      */
     function parseGeoJson(data) {
-        return L.geoJson(JSON.parse(data),  {
+        var jsonData = JSON.parse(JSON.stringify(data)); // JSON inception fixes bug on gh-pages...
+        return L.geoJson(jsonData,  {
             onEachFeature: function (feature, layer) {
                 var prop,
                     $popup = $('<table class="table table-bordered"></table>');
@@ -98,7 +99,6 @@
         }
 
         function error(jqXHR) {
-            console.log('wrong');
             if (typeof callbackError === 'function') {
                 callbackError(jqXHR);
             }
@@ -125,7 +125,7 @@
     }
 
     function getAllTracks() {
-        $('.hike-list a')
+        $('.hike-list a.hike')
             .each(function () {
                 var $a = $(this);
 
@@ -181,7 +181,7 @@
 
         resizeMap();
         getAllTracks();
-        getTrack($('.hike-list a').eq(0).attr('href'), focusTrack);
+        getTrack($('.hike-list a.hike').eq(0).attr('href'), focusTrack);
 
     });
 
