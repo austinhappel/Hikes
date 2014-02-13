@@ -56,7 +56,7 @@
      * @return {[type]}      [description]
      */
     function parseGeoJson(data) {
-        var jsonData = JSON.parse(data);
+        var jsonData = JSON.parse(JSON.stringify(data)); // JSON inception fixes bug on gh-pages...
         return L.geoJson(jsonData,  {
             onEachFeature: function (feature, layer) {
                 var prop,
@@ -99,7 +99,6 @@
         }
 
         function error(jqXHR) {
-            console.log('wrong');
             if (typeof callbackError === 'function') {
                 callbackError(jqXHR);
             }
@@ -129,7 +128,6 @@
         $('.hike-list a.hike')
             .each(function () {
                 var $a = $(this);
-                console.log($a);
 
                 function success(element, track) {
                     $a.data('cachedTrack', track);
