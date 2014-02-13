@@ -56,7 +56,8 @@
      * @return {[type]}      [description]
      */
     function parseGeoJson(data) {
-        return L.geoJson(JSON.parse(data),  {
+        var jsonData = JSON.parse(data);
+        return L.geoJson(jsonData,  {
             onEachFeature: function (feature, layer) {
                 var prop,
                     $popup = $('<table class="table table-bordered"></table>');
