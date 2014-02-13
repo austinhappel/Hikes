@@ -183,7 +183,7 @@
 
         resizeMap();
         getAllTracks();
-        getTrack($('.hike-list a').eq(0).attr('href'), focusTrack);
+        getTrack($('.hike-list a.hike').eq(0).attr('href'), focusTrack);
 
     });
 
