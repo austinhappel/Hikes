@@ -128,6 +128,7 @@
         $('.hike-list a.hike')
             .each(function () {
                 var $a = $(this);
+                console.log($a);
 
                 function success(element, track) {
                     $a.data('cachedTrack', track);
